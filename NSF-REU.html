@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Amazon Music</title>
+            <link href="css/styles.css" rel="stylesheet">
+            <style>
+                /* Floating header styles */
+                .floating-header {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 60px;
+                    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black */
+                    color: rgb(255, 255, 255);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0 20px;
+                    z-index: 1000;
+                }
+        
+                .floating-header a {
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                }
+        
+                .back-arrow {
+                    font-size: 1.8rem;
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+        <body>
+             <!-- Floating Header -->
+             <div class="floating-header">
+                <a href="index.html" class="back-arrow">&larr;</a> <!-- Back arrow -->
+        
+            </div>
+        </div>
+        <!-- Header Section with Image -->
+        <header style="width: 100%; height: 400px; overflow: hidden; position: relative;">
+            <img src="assets/Portfolio Work/UD NSF REU/UD NSF Header opt2.jpg" alt="NSF REU project" 
+                style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            <!-- Optional subtle gradient overlay -->
+            <div style="
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0));
+            "></div>
+        </header>
+        <!-- Main Content Section -->
+        <main>
+            <section class="content-section bg-light">
+                <div class="container px-4 px-lg-5 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <h2 style="
+                                padding: 10px 0 20px 0;  /* Reduced top padding */
+                                margin-bottom: 40px; 
+                                font-size: 3rem;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                color: #2C3E50;
+                                text-transform: uppercase;
+                                border-bottom: 3px solid #124ef3;
+                                display: inline-block;
+                            ">
+                                NSF Research
+                            </h2>
+                          
+                            <div class="row gx-4 gx-lg-5 align-items-center mb-5">
+                                <!-- Text column (smaller) -->
+                                <div class="col-md-4">
+                                    <p class="lead mb-0" style="text-align: left;">
+                                        This National Science Foundation Research Experience for Undergraduates (REU) project investigated sustainable transportation solutions to enhance campus connectivity at the University of Delaware. 
+                                        The study focused on designing a safe, efficient, and effective Net-Zero People Mover by evaluating four distinct transportation modes and their potential impact on campus mobility.
+                                    </p>
+                                </div>
+                            
+                                <!-- Image column (larger) -->
+                                <div class="col-md-8">
+                                    <figure>
+                                        <img src="assets/Portfolio Work/UD NSF REU/LibbyRaymond_poster.jpg" alt="Research Poster" style="width: 100%; height: auto; object-fit: cover;">
+                                        <figcaption style="text-align: center; font-size: 0.9rem; color: #555; margin-top: 0.5rem;">
+                                           NSF Research Poster
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <p class="lead mb-5" style="text-align: left;">
+                                I designed comprehensive evaluation matrices to systematically assess each transportation solution, analyzing existing traffic patterns and connectivity challenges across campus. 
+                                Working collaboratively with state, city, and university officials, I helped align the project scope with broader transportation objectives and ensure feasibility within regulatory frameworks.
+                                The research culminated in a formal report submitted to the NSF REU program and a research poster presentation that communicated findings to academic and administrative stakeholders. 
+                            <figure class="figure mb-4">
+                                <img src="assets/Portfolio Work/UD NSF REU/IMG_0840.jpeg"
+                                    alt="Presenting at the UD Research Symposium"
+                                    style="width: 50%; height: auto; display: block; margin: 0 auto;">
+                                <figcaption class="figure-caption">Presenting at the UD Research Symposium</figcaption>
+                            </figure>
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer style="text-align: center; padding: 10px;">
+                <a class="btn btn-dark btn-xl" href="index.html#portfolio">Back to Projects</a>
+            </footer>
+        </body>
+        </html>
